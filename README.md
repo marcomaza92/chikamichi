@@ -13,14 +13,14 @@ Author: Marco Maza
 ## Instructions
 
 ### Clone the repository
-git clone https://gitlab.com/marcomaza92/hipperstack.git
+`git clone https://gitlab.com/marcomaza92/hipperstack.git`
 
 ### Go to the folder and prepare the script
-cd hipperstack
-chmod +x init.sh
+`cd hipperstack`
+`chmod +x init.sh`
 
 ### Execute the script
-./init.sh
+`./init.sh`
 
 ## Features
 You can select among 3 options:
