@@ -1,0 +1,28 @@
+{
+  "name": "crudvue",
+  "main": "app.js",
+  "version": "1.0.0",
+  "description": "CRUD Express-Vue",
+  "author": "Marco Maza",
+  "license": "GPL",
+  "homepage": "https://gitlab.com/marcoagustinmaza92/crudvue#readme",
+  "dependencies": {
+    "http-server": "*",
+    "mysql": "*",
+    "express": "*",
+    "body-parser": "*",
+    "express-myconnection": "*",
+    "express-vue": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/marcoagustinmaza92/crudvue.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/marcoagustinmaza92/crudvue/issues"
+  }
+}

@@ -1,0 +1,259 @@
+/*
+#######################################################
+          Hipper Studio Snippets Compilations
+#######################################################
+
+  ___________
+  Information
+
+  * Version: 1.2
+  * Lines Number: 259
+  * Creation Date: 03/02/2017
+  * Last modification: 07/04/2017
+  * Last revision: 07/04/2017
+  * Creator: Marco Maza
+  * License: GNU License and MIT License
+
+  __________
+  Change Log
+
+  * Version     Date            Short Description
+  *
+  * 1.0         03/02/2017      Creation date
+  * 1.1         03/22/2017      Media queries modification
+  * 1.2         07/04/2017      Media queries modification and identation
+
+  _____
+  Notes
+
+  * This file includes some style snippets from:
+  *
+  * 1) The New Code | http://thenewcode.com/437/CSS-Shortcuts
+  * 2) 7 Habits of Highly Effective Media Queries | http://bradfrost.com/blog/post/7-habits-of-highly-effective-media-queries/
+  * 3) Foundation Basic Media Queries | http://foundation.zurb.com/docs/media-queries.html
+  *
+  * Thanks to all the people for letting me create this main sheet!
+  *
+  * If for some reason something is not longer under a public license
+  * please let me know by writing at hello@hipperstudio.com
+
+  _____
+  Index
+
+  * Rules 101
+  * Media Queries (Mobile First Framework)
+  * Author's Styles
+*/
+/*
+=======================================================
+                        Rules 101
+=======================================================
+
+.test {
+  max-width: width;
+  min-width: width;
+
+  max-height: height;
+  min-height: height;
+
+  background: color url(path/to/image) position/size repeat origin clip;
+  background: url(path/to/image1), url(path/to/image2), url(path/to/image3) color;
+
+  font: style variant weight size/line-height family;
+
+  box-shadow: height width blur spread color;
+  box-sizing: padding-box|border-box|content-box;
+
+  border: thickness style color;
+  border-image: url(path/to/image) slice width outset repeat;
+  border-radius: top-left top-right bottom-right bottom-left;
+
+  margin: top right bottom left;
+  margin: top left/right bottom;
+  margin: top/bottom left/right;
+
+  padding: top right bottom left;
+  padding: top left/right bottom;
+  padding: top/bottom left/right;
+
+  -webkit-filter: grayscale(50%);
+  pointer-events: none;
+
+  filter: alpha(opacity=50);
+  -khtml-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+
+  transition: property duration type delay;
+
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+
+}
+
+-------------------------------------------------------
+                        @supports
+-------------------------------------------------------
+
+@supports ( display: flexbox ) {
+  body { display: flexbox; }
+}
+
+-------------------------------------------------------
+                        Animations
+-------------------------------------------------------
+
+@-webkit-keyframes myAnimation {
+  0% { left: 0; }
+  50% { left: 200px; }
+  100% { left: 20px; }
+}
+
+@keyframes myAnimation {
+  0% { left: 0; }
+  50% { left: 200px; }
+  100% { left: 20px; }
+}
+
+.test {
+  -webkit-animation: myAnimation 2s;
+  animation: myAnimation 2s;
+}
+
+-------------------------------------------------------
+                        Font-face
+-------------------------------------------------------
+
+@font-face {
+  font-family: 'MyFontFamily';
+  src: url('myfont-webfont.eot?#iefix') format('embedded-opentype'),
+       url('myfont-webfont.woff2')      format('woff2'),
+       url('myfont-webfont.woff')       format('woff'),
+       url('myfont-webfont.ttf')        format('truetype');
+}
+
+.test {
+  font-family: MyFontFamily, Arial, sans-serif;
+}
+
+-------------------------------------------------------
+                      Placeholder
+-------------------------------------------------------
+
+::-webkit-input-placeholder {
+  color: red;
+}
+:-moz-placeholder {
+  color: red;
+}
+::-moz-placeholder {
+  color: red;
+}
+:-ms-input-placeholder {
+  color: red;
+}
+
+-------------------------------------------------------
+                        Selection
+-------------------------------------------------------
+
+::selection {
+  background: #e2eae2;
+}
+::-moz-selection {
+  background: #e2eae2;
+}
+::-webkit-selection {
+  background: #e2eae2;
+}
+
+-------------------------------------------------------
+                  Anchor Pseudo-classes
+-------------------------------------------------------
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+
+*/
+/*
+=======================================================
+        Media Queries (Mobile First Framework)
+=======================================================
+   Small Mobiles (Default)
+     240px = 15.000em
+
+   Medium Mobiles
+     241px = 15.031em
+     320px (Breakpoint) (Wireframe)
+     360px
+     480px = 30.000em
+
+   Large Mobiles
+     481px = 30.031em
+     540px (Breakpoint)
+     640px = 40.000em
+
+   Small Tablets
+     641px = 40.031em
+     720px (Breakpoint) (Wireframe)
+     800px = 50.000em
+
+   Large Tablets
+     801px = 50.031em
+     960px (Breakpoint)
+     1023px = 63.968em
+
+   Small Screens
+     1024px = 64.000em
+     1080px
+     1279px = 79.968em
+
+   Medium Screens
+     1280px = 80.000em (Breakpoint) (Wireframe)
+     1366px
+     1440px = 90.000em
+
+   Large Screens
+     1441px = 90.031em
+     1600px (Breakpoint)
+     1920px = 120.000em
+
+   Extra Large Screens Styles
+     1921px or larger = 120.031em (Breakpoint)
+*/
+/*
+=======================================================
+                    Author's Styles
+=======================================================
+*/
+
+/* Here goes your custom styles. Be creative! */
+
+/* Mobiles */
+@media only screen and (max-width: 15em) {
+ /* These styles are define in the Author's Styles.
+   Exceptions may be included. */
+}
+@media only screen and (min-width: 15.031em) {}
+@media only screen and (min-width: 30.031em) {}
+
+/* Tablets */
+@media only screen and (min-width: 40.031em) {}
+@media only screen and (min-width: 50.031em) {}
+
+/* Screens */
+@media only screen and (min-width: 64.000em) {}
+@media only screen and (min-width: 80.000em) {}
+@media only screen and (min-width: 90.031em) {}
+@media only screen and (min-width: 120.031em) {}

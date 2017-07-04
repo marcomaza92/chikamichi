@@ -1,0 +1,30 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <mail>
+
+    Marco Maza -- Front-end Developer -- mmaza@hipperstudio.com
+    Matías Kleisinger -- DBA -- mkleisinger@hipperstudio.com
+    Euge Revol -- Back-end Developer - erevol@hipperstudio.com
+
+    Your name -- What you do -- your company (or personal) e-mail
+    Your name -- What you do -- your company (or personal) e-mail
+    Your name -- What you do -- your company (or personal) e-mail
+
+# THANKS
+
+    <name>
+
+    To our families, friends and people that support this project.
+
+    Your thanks
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS, PHP
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    Node.js, Express, Vue.js, AngularJS, React.js
+
+    Your technologies
