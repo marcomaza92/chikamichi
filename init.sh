@@ -51,6 +51,7 @@ do
       cp -r ./common/configuration/. ./$projectname
       cp ./php/*.class.php ./$projectname/classes
       cp ./php/*.instance.php ./$projectname/instances
+      cp ./php/*.view.* ./$projectname/views
       cp ./php/index.php ./$projectname
       echo "$projectname is ready!"
       echo

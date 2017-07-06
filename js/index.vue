@@ -3,7 +3,6 @@
         <h1>{{title}}</h1>
         <p>Welcome to the {{title}} demo.</p>
         <h2>Users from MySQL database</h2>
-        <!-- <div>{{users}}</div> -->
         <br/>
         <table>
           <tr v-for="user in users">

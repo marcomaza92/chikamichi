@@ -17,6 +17,7 @@ Author: Marco Maza
 
 ### Go to the folder and prepare the script
 `cd hipperstack`
+
 `chmod +x init.sh`
 
 ### Execute the script

@@ -1,19 +1,12 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: isra
- * Date: 23/02/13
- * Time: 10:15
- */
-if (!isset($_POST['id'])) {
+if (!isset($_GET['id'])) {
     header("Location: ../");
 } else {
 
-    require_once '../class/users.class.php';
-
-    $usuarios = Users::singleton();
-
-    $id = $_POST['id'];
-    $usuarios->delete_usuario($id);
+    require_once '../classes/users.class.php';
+    $users = users::singleton();
+    $id = $_GET['id'];
+    $users->delete_users($id);
+    header("Location: ../");
 }
 ?>

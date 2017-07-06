@@ -25,10 +25,10 @@ USE `crudvue`;
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `customer`
+-- Estructura de tabla para la tabla `users`
 --
 
-CREATE TABLE IF NOT EXISTS `customer` (
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(200) NOT NULL,
   `address` text NOT NULL,
@@ -38,15 +38,15 @@ CREATE TABLE IF NOT EXISTS `customer` (
 ) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `customer`
+-- Volcado de datos para la tabla `users`
 --
 
-INSERT INTO `customer` (`id`, `name`, `address`, `email`, `phone`) VALUES
-(3, 'Amali', 'Jl. kemandoran no 10 Jakarta', 'amalia@langit.com', '03937263623'),
-(4, 'Angel ', 'Jl. Ciledug no 45A. tanggerang', 'angel@gmail.com', '082271626121'),
-(6, 'Memet', 'Blok cepu no 14. Bandung', 'memet@ongkek.com', '038372636232'),
-(9, 'Agung', 'Jl st Petersburg no 34. Russia', 'agung@yahoo.com', '038373273262'),
-(11, 'Marco', 'Antonio del Viso 440', 'marco@email.com', '35112345678');
+INSERT INTO `users` (`id`, `name`, `address`, `email`, `phone`) VALUES
+(1, 'Amali', 'Jl. kemandoran no 10 Jakarta', 'amalia@langit.com', '03937263623'),
+(2, 'Angel ', 'Jl. Ciledug no 45A. tanggerang', 'angel@gmail.com', '082271626121'),
+(3, 'Memet', 'Blok cepu no 14. Bandung', 'memet@ongkek.com', '038372636232'),
+(4, 'Agung', 'Jl st Petersburg no 34. Russia', 'agung@yahoo.com', '038373273262'),
+(5, 'Marco', 'Antonio del Viso 440', 'marco@email.com', '35112345678');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

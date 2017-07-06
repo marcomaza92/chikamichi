@@ -42,7 +42,7 @@ app.use(
         user: 'root',
         password : 'Muse1234/',
         port : 3306,
-        database:'nodejs'
+        database:'crudvue'
     },'pool') // Single or Pool
 );
 

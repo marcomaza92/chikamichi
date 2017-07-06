@@ -1,6 +1,6 @@
 exports.list = function(req, res) {
   req.getConnection(function(err,connection) {
-    var query = connection.query('SELECT * FROM customer',function(err,rows) {
+    var query = connection.query('SELECT * FROM users',function(err,rows) {
       if(err)
           console.log("Error Selecting : %s ",err);
       res.render('index', {
@@ -39,7 +39,7 @@ exports.add_save = function(req,res) {
             email   : input.email,
             phone   : input.phone
         };
-        var query = connection.query("INSERT INTO customer SET ? ", data, function(err, rows) {
+        var query = connection.query("INSERT INTO users SET ? ", data, function(err, rows) {
           if (err)
               console.log("Error inserting : %s ", err);
           res.redirect('/');
@@ -49,7 +49,7 @@ exports.add_save = function(req,res) {
 exports.edit = function(req, res){
     var id = req.params.id;
     req.getConnection(function(err,connection){
-        var query = connection.query('SELECT * FROM customer WHERE id = ?', [id], function(err,rows) {
+        var query = connection.query('SELECT * FROM users WHERE id = ?', [id], function(err,rows) {
             if(err)
                 console.log("Error Selecting : %s ", err);
             res.render('edit', {
@@ -77,7 +77,7 @@ exports.edit_save = function(req,res){
             email   : input.email,
             phone   : input.phone
         };
-        connection.query("UPDATE customer SET ? WHERE id = ? ", [data,id], function(err, rows) {
+        connection.query("UPDATE users SET ? WHERE id = ? ", [data,id], function(err, rows) {
           if (err)
               console.log("Error Updating : %s ", err);
           res.redirect('/');
@@ -87,7 +87,7 @@ exports.edit_save = function(req,res){
 exports.delete = function(req,res){
      var id = req.params.id;
      req.getConnection(function (err, connection) {
-        connection.query("DELETE FROM customer WHERE id = ? ", [id], function(err, rows) {
+        connection.query("DELETE FROM users WHERE id = ? ", [id], function(err, rows) {
            if(err)
                console.log("Error deleting : %s ", err);
            res.redirect('/');
