@@ -3,8 +3,14 @@ echo "Hello human... Welcome to Hipper Stack"
 echo
 echo "Please select an option from the menu below: "
 echo
-COLUMNS=4
-options=("Static Stack" "PHP Stack" "Javascript Stack" "Quit")
+COLUMNS=1
+options=(
+        "Static Stack"
+        "PHP Stack"
+        "Javascript Stack"
+        "Wordpress Stack"
+        "Ionic2 Stack"
+        "Quit")
 select option in "${options[@]}"
 do
   case $option in
@@ -81,6 +87,18 @@ do
       echo "$projectname is ready!"
       echo
       echo "Thanks for using Hipper Stack!"
+      break
+      ;;
+    "Wordpress Stack")
+      echo "You selected: $option"
+      echo
+      echo "Wordpress Stack is not ready yet"
+      break
+      ;;
+    "Ionic2 Stack")
+      echo "You selected: $option"
+      echo
+      echo "Ionic2 Stack is not ready yet"
       break
       ;;
     "Quit")
