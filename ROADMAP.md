@@ -27,7 +27,7 @@ Here are the experiences lived while building this project
   - Bonus II: check if you have everything that states here: https://stackoverflow.com/questions/36460874/laravel-5-errorexception-failed-to-open-stream-permission-denied
   - Bonus III: check your route has the `browser route name` and the `controller name` (in that order): https://laracasts.com/discuss/channels/general-discussion/reflectionexception-class-apphttpcontrollersadminadmincontroller-does-not-exist
   - Bonus IV: Remember to `Use` your models in the corresponding controller (see here: https://stackoverflow.com/questions/29579608/laravel-5-method-all-does-not-exist)
-  - Bonus V: Becareful when binding variables in the foreach's view (see here: https://stackoverflow.com/questions/25247600/call-to-undefined-method-illuminate-database-query-builderlinks)
+  - Bonus V: Be careful when binding variables in the foreach's view (see here: https://stackoverflow.com/questions/25247600/call-to-undefined-method-illuminate-database-query-builderlinks)
 
   - On Prod:
     * Remember to install composer (obviously)
