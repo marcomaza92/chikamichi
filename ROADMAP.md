@@ -40,3 +40,11 @@ Here are the experiences lived while building this project
     * On the **apache2.conf** verify that you have `AllowOverride All` and **NOT** `AllowOverride None` (htacces won't work if you don't do this)
     * Restart apache with `service apache2 graceful`
     * _voilá_ (I guess)
+
+# Session 02 - Laravel Mix - 2017-11-01 - 2017-11-03
+
+* Setting up Laravel Mix with Bootstrap 4:
+  - Download and install Nodejs (install the lastest, not the LTS), check that everything went good and check versions with `node -v` and `npm -v`
+  - Inside the project folder run `npm install` (like with any other `package.json`)
+  - Download the Bootstrap 4 source code
+  - Delete everything related to css and js in the `resources/assets` folder and add the Bootstrap 4 source code (SASS files and all the stuff) folder inside
