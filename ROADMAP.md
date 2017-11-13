@@ -41,7 +41,7 @@ Here are the experiences lived while building this project
     * Restart apache with `service apache2 graceful`
     * _voilá_ (I guess)
 
-# Session 02 - Laravel Mix - 2017-11-01 - 2017-11-03
+# Session 02 - Laravel Mix - 2017-11-01 - 2017-11-03 | 2017-11-12 - 2017-11-13
 
 * Setting up Laravel Mix with Bootstrap 4:
   - Download and install Nodejs (install the lastest, not the LTS), check that everything went good and check versions with `node -v` and `npm -v`
@@ -51,3 +51,5 @@ Here are the experiences lived while building this project
   - find the file `webpack.mix.js` in the project's root. That will be you configuration file for Laravel Mix (Webpack). Refer to: https://laravel.com/docs/5.5/mix for more details
   - run `npm run dev` or `npm run production` depending on your needs
   - Don't forget to add `mix.browserSync('your-site-or-proxy:your-port');` in the `webpack.mix.js` file to enable **hot reloading**. To activate it run `npm run watch`
+  - Verify you have Python installed (Yes, you read that right :facepalm:) (Be sure is Python 2.7, OMG)
+  - `npm install` will break in Windows. You will need to download `win32-x64-59_binding.node` from here: https://github.com/sass/node-sass/releases
