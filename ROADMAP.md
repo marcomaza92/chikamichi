@@ -48,3 +48,6 @@ Here are the experiences lived while building this project
   - Inside the project folder run `npm install` (like with any other `package.json`)
   - Download the Bootstrap 4 source code
   - Delete everything related to css and js in the `resources/assets` folder and add the Bootstrap 4 source code (SASS files and all the stuff) folder inside
+  - find the file `webpack.mix.js` in the project's root. That will be you configuration file for Laravel Mix (Webpack). Refer to: https://laravel.com/docs/5.5/mix for more details
+  - run `npm run dev` or `npm run production` depending on your needs
+  - Don't forget to add `mix.browserSync('your-site-or-proxy:your-port');` in the `webpack.mix.js` file to enable **hot reloading**. To activate it run `npm run watch`

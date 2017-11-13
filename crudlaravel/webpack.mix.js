@@ -11,5 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
+/* Hot reload */
+
+mix.browserSync('127.0.0.1:8000');
+
+/* Compile assets */
+
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');

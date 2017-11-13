@@ -14,7 +14,18 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
-    <div id="app">
+  <div id="app">
+    <section class="header"></section>
+    <section></section>
+    <section></section>
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
+        <span class="sr-only">Toggle Navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+  </div>
+    <!-- <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
                 <div class="navbar-header">
@@ -72,7 +83,7 @@
         </nav>
 
         @yield('content')
-    </div>
+    </div> -->
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
