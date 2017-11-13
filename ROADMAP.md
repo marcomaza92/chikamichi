@@ -52,4 +52,4 @@ Here are the experiences lived while building this project
   - run `npm run dev` or `npm run production` depending on your needs
   - Don't forget to add `mix.browserSync('your-site-or-proxy:your-port');` in the `webpack.mix.js` file to enable **hot reloading**. To activate it run `npm run watch`
   - Verify you have Python installed (Yes, you read that right :facepalm:) (Be sure is Python 2.7, OMG)
-  - `npm install` will break in Windows. You will need to download `win32-x64-59_binding.node` from here: https://github.com/sass/node-sass/releases
+  - `npm install` will break in Windows. You will need to download `win32-x64-59_binding.node` from here: https://github.com/sass/node-sass/releases. Then add it in `C:\Users\%USER%\AppData\npm-cache\node-sass\4.5.3`
