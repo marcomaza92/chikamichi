@@ -67,8 +67,8 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-(function webpackMissingModule() { throw new Error("Cannot find module \"/home/kite/www/hipperstudio/projects/hipperstack/crudlaravel/resources/assets/js/app.js\""); }());
-(function webpackMissingModule() { throw new Error("Cannot find module \"/home/kite/www/hipperstudio/projects/hipperstack/crudlaravel/resources/assets/sass/app.scss\""); }());
+(function webpackMissingModule() { throw new Error("Cannot find module \"C:\\Program Files\\Common Files\\www\\hipperstudio\\projects\\hipperstack\\crudlaravel\\resources\\assets\\js\\app.js\""); }());
+(function webpackMissingModule() { throw new Error("Cannot find module \"C:\\Program Files\\Common Files\\www\\hipperstudio\\projects\\hipperstack\\crudlaravel\\resources\\assets\\sass\\app.scss\""); }());
 
 
 /***/ })

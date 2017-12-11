@@ -51,5 +51,11 @@ Here are the experiences lived while building this project
   - find the file `webpack.mix.js` in the project's root. That will be you configuration file for Laravel Mix (Webpack). Refer to: https://laravel.com/docs/5.5/mix for more details
   - run `npm run dev` or `npm run production` depending on your needs
   - Don't forget to add `mix.browserSync('your-site-or-proxy:your-port');` in the `webpack.mix.js` file to enable **hot reloading**. To activate it run `npm run watch`
+* Windows journey:
   - Verify you have Python installed (Yes, you read that right :facepalm:) (Be sure is Python 2.7, OMG)
   - `npm install` will break in Windows. You will need to download `win32-x64-59_binding.node` from here: https://github.com/sass/node-sass/releases. Then add it in `C:\Users\%USER%\AppData\npm-cache\node-sass\4.5.3`
+
+# Session 03 - Bootstrap 4 - 2017-12-11
+
+* Understanding the anatomy of Bootstrap 4:
+  - You need to include `bootstrap.scss` and `index.js` in the webpack config to compile them
